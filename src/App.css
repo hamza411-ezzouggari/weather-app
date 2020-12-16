@@ -50,13 +50,14 @@ body{
 }
 .villa{
   font-size: 4rem;
-  margin: 15px 0px 0px;
+  margin: -7% 0px 0px;
 }
 .country{
-  position: absolute;
-  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color:transparent;
-  font-size: 2rem;
+  font-size:25px;
+  margin: -9px 0px 0px;
 }
 .tout{
   width: flex;
@@ -91,3 +92,95 @@ h1{
  .Img{
    width: flex;
  }
+@media only screen and (max-width:1000px){
+  .container .search {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: crimson;
+    border-radius: 50%;
+    transition: all 1s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  }
+  .container input {
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    text-shadow: 0 0 10px crimson;
+    padding: 0 80px 0 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    transition: all 1s;
+    opacity: 0;
+    z-index: 5;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+  }
+  .container input:focus {
+    width: 200px;
+    opacity: 1;
+    cursor: text;
+  }
+  .Result{
+    height:flex;
+    width: flex;
+  }
+  .tout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: flex;
+    width: 97%;
+  }
+  .wrapper{
+    font-size: 30px;
+    
+  }
+  .country{
+    font-size: 22px;
+    margin: -9px 0px 0px;
+  }
+  .villa{
+    padding: 2px;
+    font-size: 50px;
+    margin: -7% 0px 0px;
+  }
+  .pay2{
+    font-size: 70px;
+  }
+  .icon{
+    font-size: 0px;
+  }
+  .com{
+    font-size: 35px;
+  }
+  .icon1{
+    font-size: 10px;
+  }
+  .icon2{
+    font-size: 10px;
+  }
+  .cloud{
+    width: 80px;
+  }
+  .ida{
+    width: 97%;
+  }
+}
