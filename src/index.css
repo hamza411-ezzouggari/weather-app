@@ -6,7 +6,7 @@
 .container .search {
   position: absolute;
   margin: auto;
-  top: 0;
+  top: 50px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -77,12 +77,16 @@
   cursor: pointer;
 }
 .container input:focus {
+  width: 50px;
+  height: 50px;
   width: 215px;
   opacity: 1;
   cursor: text;
 }
 .container input:focus ~ .search {
-  right: -250px;
+  display: flex;
+  top: -4px;
+  left: 236px;
   background: #151515;
   z-index: 6;
 }
@@ -108,9 +112,9 @@
 }
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: -5% 0px 0px;
   text-align: center;
 }
 .wrapper h1 {

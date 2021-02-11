@@ -20,7 +20,7 @@ export default function Country({data}){
                 </h1>
             </div>
                 <div className="villa">
-                <h1>
+                <h1 className="villa" >
                     {data.name}
                 </h1>
                 </div>
