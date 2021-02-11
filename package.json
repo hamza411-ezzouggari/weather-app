@@ -19,8 +19,9 @@
     "react-bootstrap-timezone-picker": "^2.0.1",
     "react-dom": "^17.0.1",
     "react-geolocated": "^3.1.0",
-    "react-google-location": "^1.2.2",
+  
     "react-minimal-pie-chart": "^8.1.0",
+    "react-google-location": "^1.2.2",
     "react-moment": "^1.0.0",
     "react-native-get-location": "^1.4.3",
     "react-navigator-geolocation": "^1.0.8",
